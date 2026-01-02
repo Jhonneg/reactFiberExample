@@ -1,5 +1,5 @@
 import Button from "../components/Button";
-import HeroExperience from "../components/HeroModels/HeroExperioence";
+import HeroExperience from "../components/HeroModels/HeroExperience";
 import { words } from "../constants/index";
 
 export default function Hero() {
