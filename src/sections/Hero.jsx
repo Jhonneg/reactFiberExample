@@ -1,3 +1,5 @@
+import Button from "../components/Button";
+import HeroExperience from "../components/HeroModels/HeroExperioence";
 import { words } from "../constants/index";
 
 export default function Hero() {
@@ -5,7 +7,6 @@ export default function Hero() {
     <section id="hero" className="relative overflow-hidden">
       <div className="absolute top-0 left-0 z-10">
         <img src="/images/bg.png" alt="background" />
-        Hero
       </div>
       <div className="hero-layout">
         <header
@@ -41,8 +42,21 @@ export default function Hero() {
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
               Hi i'm john doe, a dev based in with a passion for code
             </p>
+            <Button
+              className="md:w-80 md:h-16 h-12 w-60"
+              id="button"
+              text="See my work"
+            />
           </div>
         </header>
+        <figure>
+          <div
+            className="hero-3d-layout 
+          border-red-200 border-2"
+          >
+            <HeroExperience />
+          </div>
+        </figure>
       </div>
     </section>
   );
