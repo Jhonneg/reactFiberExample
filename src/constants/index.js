@@ -274,7 +274,7 @@ export {
   navLinks,
   words,
   abilities,
-       logoIconsList,
+  logoIconsList,
   counterItems,
   expCards,
   expLogos,

@@ -17,7 +17,7 @@ export default function ShowcaseSection() {
       project2Ref.current,
       project3Ref.current,
     ];
-    
+
     projects.forEach((card, index) => {
       gsap.fromTo(
         card,
@@ -34,13 +34,13 @@ export default function ShowcaseSection() {
             trigger: card,
             start: "top bottom-=100",
           },
-        }
+        },
       );
     });
     gsap.fromTo(
       sectionRef.current,
       { opacity: 0 },
-      { opacity: 1, duration: 1.5 }
+      { opacity: 1, duration: 1.5 },
     );
   }, []);
 
