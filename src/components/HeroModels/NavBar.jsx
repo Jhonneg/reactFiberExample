@@ -1,0 +1,21 @@
+
+export default function NavBar() {
+  return (
+    <header className="navbar">
+      <div className="inner">
+        <a className="logo" href="#hero">
+          John Doe
+        </a>
+        <nav className="desktop">
+
+        </nav>
+
+        <a href="#contact" className="contact-btn group">
+          <div className="inner">
+            <span>Contact me</span>
+          </div>
+        </a>
+      </div>
+    </header>
+  )
+}

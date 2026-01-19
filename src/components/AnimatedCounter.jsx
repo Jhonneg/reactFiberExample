@@ -10,7 +10,7 @@ export default function AnimatedCounter() {
           <div className="bg-zinc-900 rounded-lg p-10 flex flex-col justify-center">
             <div
               key={counterItems.label}
-              className="coutner-number text-white text-5xl font-bold mb-2"
+              className="counter-number text-white text-5xl font-bold mb-2"
             >
               <CountUp suffix={item.suffix} end={item.value} />
             </div>
