@@ -271,9 +271,10 @@ const socialImgs = [
 ];
 
 export {
+  navLinks,
   words,
   abilities,
-  logoIconsList,
+       logoIconsList,
   counterItems,
   expCards,
   expLogos,
@@ -281,5 +282,4 @@ export {
   socialImgs,
   techStackIcons,
   techStackImgs,
-  navLinks,
 };
