@@ -1,6 +1,7 @@
 import NavBar from "./components/HeroModels/NavBar";
-import LogoSection from "./components/LogoSection";
+import FeatureCards from "./sections/FeatureCards";
 import Hero from "./sections/Hero";
+import LogoSection from "./sections/LogoSection";
 import ShowcaseSection from "./sections/ShowcaseSection";
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <Hero />
       <ShowcaseSection />
       <LogoSection />
+      <FeatureCards />
     </>
   );
 }
